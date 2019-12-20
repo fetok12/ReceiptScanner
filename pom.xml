@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.labProject</groupId>
+  <artifactId>labProject</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+     <properties>
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <javaVersion>1.8</javaVersion>
+            <maven.compiler.source>1.8</maven.compiler.source>
+            <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+  
+  
+  
+  <dependencies>
+   <dependency>
+    <groupId>org.bytedeco</groupId>
+    <artifactId>javacv-platform</artifactId>
+    <version>1.5.1</version>
+  </dependency>
+  <dependency>
+    <groupId>net.sourceforge.tess4j</groupId>
+    <artifactId>tess4j</artifactId>
+    <version>4.4.1</version>
+</dependency>
+<dependency>
+	<groupId>postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+    <version>9.1-901-1.jdbc4</version>
+</dependency>
+  
+  </dependencies>
+</project>
